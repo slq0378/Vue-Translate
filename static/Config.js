@@ -1,4 +1,4 @@
 var Config = window.Config = {
-  title: '简繁体转换',
+  title: '测试一下',
   holderMessage:'功能开发中....',
 }

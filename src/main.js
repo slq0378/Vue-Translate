@@ -5,8 +5,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Plugins from './plugins'
+import Translate from './plugins/translate.js'
 
 Vue.use(Plugins)
+Vue.use(Translate)
+
 Vue.config.productionTip = false
 // FastClick.attach(document.body)
 
