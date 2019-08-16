@@ -75,6 +75,10 @@ const webpackConfig = {
           limit: 10000,
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
+      },
+      {
+        test: /\.(js|vue)$/,
+        loader: 'language-tw-loader',
       }
     ]
   },
